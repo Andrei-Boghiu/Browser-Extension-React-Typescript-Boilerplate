@@ -31,3 +31,16 @@ Follow these steps to get started with the boilerplate:
     - **popup.tsx**: Popup window React component.
     - **popup.css**: Styles for the popup window.
   - **static**: Static assets like icons, and manifest.json.
+
+## Loading The Chrome Extension
+
+1. Open Chrome and navigate to `chrome://extensions/`.
+2. Toggle on `Developer mode` in the top right corner.
+3. Click `Load unpacked`.
+4. Select only the `dist` folder.
+
+## Default Boilerplate Notes
+
+- Directory structures become simplified, eliminating the need for relative image references in HTML files (e.g., using icon.png instead of ../static/icon.png).
+- Local TypeScript (ts/tsx) and CSS files are imported relatively, ensuring Webpack builds a proper dependency graph based on these paths.
+- Ensure the manifest file is updated in the usual manner for Chrome-related permissions. References to files within this file should also be flattened and not rely on relative paths.
