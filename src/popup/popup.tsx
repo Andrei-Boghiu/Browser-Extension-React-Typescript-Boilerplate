@@ -12,8 +12,8 @@ const root = ReactDOM.createRoot(document.getElementById('root'))
 root.render(
 	<React.StrictMode>
 		<div>
-			<p>Helloww mf</p>
-			<img src='icon.png' />
+			<h1>Welcome to [App Name]</h1>
+			<p>Feel free to customize it as per your needs.</p>
 		</div>
 	</React.StrictMode>
 )
