@@ -9,7 +9,7 @@
 	},
 	"keywords": [],
 	"author": "Andrei-Boghiu",
-	"license": "ISC",
+	"license": "MIT",
 	"devDependencies": {
 		"@types/chrome": "^0.0.267",
 		"@types/react": "^18.3.1",
